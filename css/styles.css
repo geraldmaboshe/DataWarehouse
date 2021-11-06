@@ -728,3 +728,195 @@ a {
   align-items: center;
   width: 80px;
 }
+
+.footer {
+  margin-top: 150px;
+  margin-bottom: 8.9px;
+}
+.footer__divider {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #9c69e2;
+  opacity: 0.2;
+}
+.footer__cta {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  top: 100px;
+}
+@media only screen and (max-width: 60em) {
+  .footer__cta {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.footer__cta__hook {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 584px;
+  height: 101px;
+}
+@media only screen and (max-width: 60em) {
+  .footer__cta__hook {
+    text-align: center;
+  }
+}
+.footer__cta__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 41rem;
+  height: 6rem;
+}
+@media only screen and (max-width: 60em) {
+  .footer__cta__buttons {
+    margin-top: 3rem;
+  }
+}
+.footer__map {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 53.75em) {
+  .footer__map {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.footer__map__company {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 37.5em) {
+  .footer__map__company {
+    align-items: center;
+  }
+}
+.footer__map__company__icons {
+  visibility: hidden;
+  width: 178px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 37.5em) {
+  .footer__map__company__icons {
+    visibility: visible;
+  }
+}
+.footer__map__company__identity {
+  display: flex;
+  align-items: center;
+}
+.footer__map__company__identity__name {
+  margin-left: 20px;
+  font-family: "Avenir";
+  color: #212353;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 160%;
+}
+.footer__map__company__address {
+  font-style: normal;
+  font-family: "Avenir";
+  color: #212353;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01rem;
+  margin-top: 67px;
+}
+@media only screen and (max-width: 53.75em) {
+  .footer__map__company__address {
+    text-align: center;
+  }
+}
+.footer__map__company__contact {
+  font-family: "Avenir";
+  color: #212353;
+  font-style: normal;
+  font-weight: normal;
+  width: 335px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 53.75em) {
+  .footer__map__company__contact {
+    text-align: center;
+  }
+}
+.footer__map__links {
+  display: flex;
+}
+@media only screen and (max-width: 53.75em) {
+  .footer__map__links {
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    width: 100vw;
+    justify-content: center;
+  }
+}
+.footer__map__links__header {
+  font-family: "Avenir";
+  color: #212353;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 2.6rem;
+  margin-bottom: 3rem;
+}
+.footer__map__links__text {
+  font-family: "Avenir";
+  color: #212353;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 4rem;
+}
+.footer__map__links__about {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  width: 166px;
+}
+.footer__map__links__help {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  width: 166px;
+}
+@media only screen and (max-width: 67em) {
+  .footer__map__links__help {
+    margin-left: 0rem;
+  }
+}
+@media only screen and (max-width: 53.75em) {
+  .footer__map__links__help {
+    width: 11.6rem;
+  }
+}
+.footer__map__links__social {
+  height: 110px;
+  width: 178px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 32px;
+}
+@media only screen and (max-width: 67em) {
+  .footer__map__links__social {
+    margin-left: 0rem;
+  }
+}
+.footer__map__links__social__icons {
+  display: flex;
+  justify-content: space-between;
+}
