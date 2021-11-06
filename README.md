@@ -2,7 +2,7 @@
 
 HTML & CSS mini project
 
-## How to Run the development server
+## How to run the development server
 
 - clone this repository
 - navigate to the project directory using the terminal
