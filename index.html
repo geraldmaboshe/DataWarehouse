@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>DataWarehouse</title>
 </head>
 <body>
-    Hello World
+    <!-- Nav starts -->
+    <nav class="nav">
+        <a href="#" class="nav__logo">
+            <img src="images/logo.svg" alt="DataWarehouse logo" />
+        </a>
+        <input class="nav__input" type="checkbox" id="nav__input" />
+        <label class="nav__icon" for="nav__input"><span class="nav__icon__span"></span></label>
+        <ul class="nav__menu">
+            <li class="nav__menu__item">
+                <a href="#" class="nav__menu__item__link nav__menu__item__link_about">About</a>
+            </li>
+            <li class="nav__menu__item">
+                <a href="#" class="nav__menu__item__link">Help</a>
+            </li>
+            <li class="nav__menu__item">
+                <a href="#" class="nav__menu__item__link">Features</a>
+            </li>
+            <li class="nav__menu__item">
+                <a href="#" class="nav__menu__item__link">Signup</a>
+            </li>
+            <li class="nav__menu__item nav__menu__item_invisible">
+                <a href="#" class="nav__menu__item__link">Request Demo</a>
+            </li>
+        </ul>
+        <div class="nav__item">
+            <button class="button button--demo button--hide">
+                Request Demo <img src="./images/right_arrow_button.svg" alt="right arrow icon" class="button__image">
+            </button>
+        </div>
+    </nav>
+    <!-- Nav ends -->
 </body>
 </html>
