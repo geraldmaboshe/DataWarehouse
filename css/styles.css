@@ -292,9 +292,6 @@ a {
   }
 }
 
-.header {
-  min-height: 754px;
-}
 @media only screen and (max-width: 37.5em) {
   .header {
     min-height: auto;
@@ -358,7 +355,7 @@ a {
 .main {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 102.18px;
+  margin-top: 202.18px;
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
   max-width: 1117px;
@@ -382,7 +379,7 @@ a {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 31.82px;
+  padding-top: 31.82px;
   margin-left: 11px;
   width: 477px;
   height: 504px;
