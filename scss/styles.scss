@@ -390,3 +390,105 @@ a {
     }
   }
 }
+.feature {
+  margin-top: 149.82px;
+  max-width: 1120px;
+  min-height: 1026px;
+  display: flex;
+  flex-direction: column;
+  &__text {
+    max-width: 584px;
+    min-height: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    text-align: center;
+  }
+  &__blocks {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 72em) {
+      justify-content: center;
+    }
+    &__block {
+      display: flex;
+      justify-content: space-between;
+      height: 358px;
+      margin-bottom: 33px;
+      background-repeat: no-repeat;
+      background-position: right;
+      &--search-data {
+        background-image: url("./../images/search_data_background.svg");
+        width: 532px;
+      }
+      &--anytime-access {
+        background-image: url("./../images/24_hour_access_background.svg");
+        width: 54.428rem;
+      }
+      &--print-out {
+        background-image: url("./../images/print_out_background.svg");
+        width: 55.028rem;
+      }
+      &--security-code {
+        background-image: url("./../images/security_code_background.svg");
+        width: 519.6px;
+      }
+      &__image {
+        position: relative;
+        @media only screen and (max-width: 30em) {
+          & img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        &--search-data {
+          top: 7.3rem;
+        }
+        &--anytime-access {
+          top: 7.1rem;
+        }
+        &--print-out {
+          top: 12.3rem;
+        }
+        &--security-code {
+          top: 8.6rem;
+        }
+      }
+      &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 49px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        padding-left: 29.29px;
+        &__description {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 160%;
+          color: #4b5d68;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          height: 160px;
+        }
+        &__cta {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 127px;
+          height: 26px;
+          font-family: $secondary-font;
+          color: $primary-color;
+          font-size: 16px;
+          font-weight: 800;
+          line-height: 160%;
+          letter-spacing: 0.005em;
+        }
+      }
+    }
+  }
+}
